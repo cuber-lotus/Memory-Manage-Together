@@ -1,0 +1,26 @@
+# folder
+## vscode
+.vscode
+
+## build
+*build*
+
+########
+# file
+## c/cpp
+*.exe
+*.out
+*.o
+*.bin
+*.lib
+*.dll
+*.a
+
+## other
+*.log
+*.user
+
+# special file
+main.cpp
+main.c
+main
