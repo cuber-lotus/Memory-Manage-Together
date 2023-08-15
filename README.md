@@ -2,8 +2,13 @@
 
 [toc]
 
+> 链接：[cuber-lotus/Memory-Manage-Together](https://github.com/cuber-lotus/Memory-Manage-Together)
+
+![bug](README.assets/bug.jpg)
+
 ## 介绍
-**Memory Manage Together 一起内存管理**
+
+**Memory Manage Together**
 
 本项目主要记录各类在C/C++使用过程中，有关内存的各种事项。
 
@@ -18,7 +23,9 @@
 
 ## 展现形式
 
-均以code的形式展现，一份文件一般对应一种问题。
+本仓库是一个 sample 的整合，不会涉及过多内部的底层设计等等。
+
+一切回归到最接近每位coder的层面，一份文件一般对应一种问题。
 
 [目录](catalog/catalog.md)
 
@@ -28,9 +35,10 @@
 
 关于检测内存问题的工具有很多。
 
-这里推荐在Linux下的`valgrind`
+这里推荐 [Valgrind Home](https://valgrind.org/)
 
 ```bash
+# linux 环境下
 # 默认生成 a.out
 gcc ./main.c
 

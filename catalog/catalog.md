@@ -30,6 +30,7 @@
 - [reference_extendTheLifeCycle.cpp](../code/reference/reference_extendTheLifeCycle.cpp)
 
 ## smartptr
+- [DeleterDoesNotMatch.cpp](../code/smartptr/DeleterDoesNotMatch.cpp)
 - [circular-reference_00.cpp](../code/smartptr/circular-reference_00.cpp)
 - [circular-reference_01.cpp](../code/smartptr/circular-reference_01.cpp)
 
