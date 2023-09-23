@@ -2,13 +2,13 @@
 
 int main() {
     // destructor will use delete， UB
-    {
-        std::shared_ptr<int> shared_bad(new int[10]);
-    }
+    // type mismatch
+    // int != int[]
+    { std::shared_ptr<int> bad(new int[10]); }
 
-    // diy delete safe
-    {
-        std::shared_ptr<int> shared_good(new int[10],
-                                         std::default_delete<int[]>());
-    }
+    // type matching
+    { std::shared_ptr<int[]> good(new int[10]); }
+
+    // deleter by self
+    { std::shared_ptr<int> good(new int[10], std::default_delete<int[]>()); }
 }
