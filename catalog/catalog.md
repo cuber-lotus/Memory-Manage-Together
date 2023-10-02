@@ -3,7 +3,9 @@
 [toc]
 
 ## array
+- [Out-of-range.cpp](../code/array/Out-of-range.cpp)
 - [mismatch_arrayLength.cpp](../code/array/mismatch_arrayLength.cpp)
+- [unsigned-signed.cpp](../code/array/unsigned-signed.cpp)
 
 ## class
 - [copy_useDeepCopy.cpp](../code/class/copy_useDeepCopy.cpp)
@@ -23,6 +25,9 @@
 ## exception
 - [exception_evaluationOrder.cpp](../code/exception/exception_evaluationOrder.cpp)
 
+## lambda
+- [dangling-reference.cpp](../code/lambda/dangling-reference.cpp)
+
 ## null-pointer
 - [invalidAddress.cpp](../code/null-pointer/invalidAddress.cpp)
 
@@ -33,6 +38,7 @@
 - [DeleterDoesNotMatch.cpp](../code/smartptr/DeleterDoesNotMatch.cpp)
 - [circular-reference_00.cpp](../code/smartptr/circular-reference_00.cpp)
 - [circular-reference_01.cpp](../code/smartptr/circular-reference_01.cpp)
+- [double_smartPtr.cpp](../code/smartptr/double_smartPtr.cpp)
 
 ## stl
 - [pointer-element.cpp](../code/stl/pointer-element.cpp)

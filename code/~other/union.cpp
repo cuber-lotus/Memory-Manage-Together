@@ -27,7 +27,7 @@ int main() {
      * Though it can run through in some compilers
      */
     // std::cout << u0.obj.x << std::endl;
-   
+
     // call placement new
     new (&u.obj) Node();
     std::cout << u.obj.x << std::endl;

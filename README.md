@@ -27,33 +27,20 @@
 
 一切回归到最接近每位coder的层面，一份文件一般对应一种问题。
 
-[目录](catalog/catalog.md)
+> 👉 [目录](catalog/catalog.md)
 
 
 
 ## 辅助工具
 
-关于检测内存问题的工具有很多。
+关于检测内存问题的工具有很多。这里推荐：
 
-这里推荐 [Valgrind Home](https://valgrind.org/)
-
-```bash
-# linux 环境下
-# 默认生成 a.out
-gcc ./main.c
-
-# 对 a.out 文件进行检测 
-valgrind ./a.out
-# 将检测信息打到文件中
-# valgrind_out.log 不会自动创建
-valgrind --log-file=valgrind_out.log ./a.out
-```
-
-
+-  [valgrind](https://valgrind.org/)
+- [cppcheck](http://cppcheck.net/)
 
 ## 交流合作
 
-> 交流qq群：817328828
+> 主页：[cuber-lotus (天赐细莲) (github.com)](https://github.com/cuber-lotus)
 
 本项目致力于打造为一个拥有丰富例子的仓库。
 
