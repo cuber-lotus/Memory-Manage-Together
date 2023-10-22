@@ -22,6 +22,10 @@
 - [mismatch_delete.cpp](../code/delete-free/mismatch_delete.cpp)
 - [mismatch_freeAndDelete.cpp](../code/delete-free/mismatch_freeAndDelete.cpp)
 
+## enum
+- [assign_notInEnumRange.cpp](../code/enum/assign_notInEnumRange.cpp)
+- [without_initialized.cpp](../code/enum/without_initialized.cpp)
+
 ## exception
 - [exception_evaluationOrder.cpp](../code/exception/exception_evaluationOrder.cpp)
 
@@ -32,7 +36,8 @@
 - [invalidAddress.cpp](../code/null-pointer/invalidAddress.cpp)
 
 ## reference
-- [reference_extendTheLifeCycle.cpp](../code/reference/reference_extendTheLifeCycle.cpp)
+- [extendTheLifeCycle.cpp](../code/reference/extendTheLifeCycle.cpp)
+- [nullptrToPass.cpp](../code/reference/nullptrToPass.cpp)
 
 ## smartptr
 - [DeleterDoesNotMatch.cpp](../code/smartptr/DeleterDoesNotMatch.cpp)
