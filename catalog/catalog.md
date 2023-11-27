@@ -44,8 +44,10 @@
 - [circular-reference_00.cpp](../code/smartptr/circular-reference_00.cpp)
 - [circular-reference_01.cpp](../code/smartptr/circular-reference_01.cpp)
 - [double_smartPtr.cpp](../code/smartptr/double_smartPtr.cpp)
+- [enable_shared_from_this.cpp](../code/smartptr/enable_shared_from_this.cpp)
 
 ## stl
+- [dilatation.cpp](../code/stl/dilatation.cpp)
 - [pointer-element.cpp](../code/stl/pointer-element.cpp)
 - [vector-bool.cpp](../code/stl/vector-bool.cpp)
 
