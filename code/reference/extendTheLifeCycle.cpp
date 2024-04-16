@@ -11,6 +11,7 @@ const std::string& fun(const std::string& s) {
 }
 
 int main() {
+    // The life cycle of "Hello World!" spans only this line
     const std::string& s = fun("Hello World!");
     std::cout << s << std::endl;
 }

@@ -1,0 +1,1 @@
+cppcheck main.cpp 2> out.out

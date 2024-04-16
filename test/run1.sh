@@ -26,5 +26,3 @@ valgrind                    \
 
 # remove out file
 rm a.out
-
-// cppcheck main.cpp 2> check.txt

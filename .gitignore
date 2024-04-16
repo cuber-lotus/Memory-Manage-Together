@@ -1,9 +1,10 @@
 # folder
 ## vscode
-.vscode
-
-## build
-*build*
+*build*/
+.vscode/
+x64/
+Debug/
+Release/
 
 ########
 # file
@@ -23,4 +24,6 @@
 # special file
 main.cpp
 main.c
-main
+
+test.cpp
+test.c
