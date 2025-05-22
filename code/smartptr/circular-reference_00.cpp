@@ -1,6 +1,6 @@
 /**
  * @file circular-reference_00.cpp
- * @brief 
+ * @brief
  * circular reference by self
  */
 #include <iostream>

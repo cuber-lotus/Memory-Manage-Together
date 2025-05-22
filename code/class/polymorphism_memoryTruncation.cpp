@@ -3,7 +3,9 @@
  * @brief
  *  Memory truncation
  */
+#include <cstdint>
 #include <iostream>
+
 #define ARR_LENGTH 5
 
 struct Base {

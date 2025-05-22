@@ -1,6 +1,7 @@
 /**
  * P.S. Pay attention to big-endian and little-endian problems.
  */
+#include <cstdint>
 #include <iostream>
 
 void write(uint8_t* byte, uint32_t u32) {
@@ -16,7 +17,7 @@ void read(uint8_t* byte) {
 
 int main() {
     constexpr size_t LEN = sizeof(uint32_t) / sizeof(uint8_t);
-    uint8_t str[LEN];
+    uint8_t          str[LEN];
 
     write(str, 114514);
     read(str);

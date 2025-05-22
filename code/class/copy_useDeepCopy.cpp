@@ -7,8 +7,7 @@ void good() {
         int* p;
 
     public:
-        Node() : p(new int{}) {
-        }
+        Node() : p(new int{}) {}
 
         ~Node() {
             if (p != nullptr) {
@@ -40,8 +39,7 @@ void bad() {
         int* p;
 
     public:
-        Node() : p(new int{}) {
-        }
+        Node() : p(new int{}) {}
 
         ~Node() {
             if (p != nullptr) {

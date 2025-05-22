@@ -1,9 +1,9 @@
 enum class Rgb { Red, Green, Blue };
 
 /**
- * @brief 
+ * @brief
  * Please check the value before use it.
- * @param rgb 
+ * @param rgb
  */
 void fun(Rgb rgb) {
     // pass

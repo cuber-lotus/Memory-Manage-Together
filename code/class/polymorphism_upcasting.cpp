@@ -24,7 +24,7 @@ public:
     ~Derive() {
         std::cout << __func__ << __LINE__ << std::endl;
     }
-    
+
     virtual void fun() {
         std::cout << __func__ << __LINE__ << std::endl;
     }
@@ -32,7 +32,7 @@ public:
 
 int main() {
     // In most cases there are problems
-    Base b;
+    Base    b;
     Derive* p = dynamic_cast<Derive*>(&b);
     p->fun();
 }

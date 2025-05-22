@@ -3,10 +3,10 @@
 /**
  * new -> delete
  * new [] -> delete []
-*/
+ */
 void good() {
     int *p = nullptr;
-    p = new int[ARRAY_LEN]{};
+    p      = new int[ARRAY_LEN]{};
     delete[] p;
 
     p = new int{};
@@ -18,7 +18,7 @@ void good() {
  */
 void bad() {
     int *p = nullptr;
-    p = new int[ARRAY_LEN]{};
+    p      = new int[ARRAY_LEN]{};
     delete p;
 
     p = new int{};

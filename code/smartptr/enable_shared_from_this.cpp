@@ -45,7 +45,7 @@ void bad(Node* p) {
 
 int main() {
     Node* p = nullptr;
-    
+
 #if ALLOW_SHARE_FROM_THIS
     p = new Node();
     good(p);

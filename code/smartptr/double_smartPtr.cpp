@@ -5,7 +5,7 @@ struct Node {
     Node() {
         std::cout << this << __func__ << std::endl;
     }
-    
+
     ~Node() {
         std::cout << this << __func__ << std::endl;
     }

@@ -5,8 +5,7 @@ private:
     int* p;
 
 public:
-    Base() : p(new int{}) {
-    }
+    Base() : p(new int{}) {}
 
     // //  bad
     // ~Base() {
@@ -23,8 +22,7 @@ public:
 
 class Derive final : public Base {
 public:
-    Derive() {
-    }
+    Derive() {}
 
     ~Derive() {
         ::std::cout << __func__ << ::std::endl;

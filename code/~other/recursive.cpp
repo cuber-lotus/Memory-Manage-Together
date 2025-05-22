@@ -1,7 +1,7 @@
 /**
  * recursive function
  * stack bomb
-*/
+ */
 int fun(int x) {
     return x + fun(x - 1);
 }

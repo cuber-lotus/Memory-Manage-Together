@@ -1,7 +1,7 @@
 /**
  * The code can't extend the life cycle of the char[]{"Hello World!"}.
  * Though it can run through in some compilers.
-*/
+ */
 #include <iostream>
 #include <string>
 
